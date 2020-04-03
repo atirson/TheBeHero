@@ -1,0 +1,19 @@
+{
+  "name": "the_be_hero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:atirson/TheBeHero.git",
+  "author": "Atirson Fabiano Barbosa de Oliveira <fabiano.oliveira2213@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite": "^3.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
